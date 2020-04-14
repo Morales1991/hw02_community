@@ -11,7 +11,7 @@
     {% for post in posts %}
         <h3>Автор: {{ post.author }}</h3>
         <p>{{ post.text }}</p>
-        <p>Дата публикации: {{ post.pub_date|date:"d M Y" }}</p>
+        <p>дата публикации:{{ post.pub_date|date:"d M Y" }}</p>
     {% endfor %}
   </body>
 </html>
